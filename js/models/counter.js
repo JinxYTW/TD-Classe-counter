@@ -29,5 +29,4 @@ class Counter {
 
 }
 
-const counter = new Counter();
-export { counter }; 
+export { Counter }; 

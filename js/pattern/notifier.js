@@ -11,4 +11,4 @@ class Notifier{
     }
 }
 
-const notifier = new Notifier();
+export { Notifier };

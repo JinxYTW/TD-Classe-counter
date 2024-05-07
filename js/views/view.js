@@ -1,3 +1,4 @@
+import { Observer } from './../pattern/observer.js';
 class View extends Observer{
     #controller;
 
@@ -13,7 +14,9 @@ class View extends Observer{
     }
 
     notify(){
-        const counterValue = document.querySelector('txt-counter');
+        const counterValue = document.querySelector('#txt-counter');
         counterValue.textContent = this.#controller.CounterValue;
     }
 }
+
+export { View };

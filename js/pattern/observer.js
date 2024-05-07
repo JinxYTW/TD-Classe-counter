@@ -10,3 +10,4 @@ class Observer{
 
 
 //Une classe abstraite ne possède pas de constructeur, elle ne peut pas être instanciée directement. Elle sert de modèle pour d'autres classes qui en héritent.
+export { Observer };
