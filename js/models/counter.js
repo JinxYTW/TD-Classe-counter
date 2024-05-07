@@ -1,1 +1,4 @@
-export let counter = 0;
+export function getCounter() {
+    let counter = 0;
+    return counter;
+}
