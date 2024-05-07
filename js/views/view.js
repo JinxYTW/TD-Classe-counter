@@ -11,6 +11,12 @@ class View extends Observer{
         incrementButton.addEventListener('click', () => {
             this.#controller.incrementCounter();
         });
+
+        const decrementButton = document.querySelector('#btn-decrement');
+
+        decrementButton.addEventListener('click', () => {
+            this.#controller.decrementCounter();
+        });
     }
 
     notify(){
