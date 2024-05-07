@@ -10,9 +10,13 @@ class Counter {
         this.#value = 0;
     }
 
-    getValue(){
+    get value(){
         return this.#value;
-    }   
+    }
+
+    set value(value){
+        this.#value = value;
+    }
 
     incrementValue(){  
         this.#value++;
