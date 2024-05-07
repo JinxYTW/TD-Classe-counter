@@ -1,3 +1,3 @@
-import { getCounter } from "./../models/counter.js" 
+import { counter} from "./../models/counter.js" 
 console.log('application.js loaded');
-console.log(getCounter());
+console.log(counter.getValue());    
